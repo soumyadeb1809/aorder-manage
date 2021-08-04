@@ -1,0 +1,16 @@
+.text-input-c {
+    
+}
+
+.text-input {
+    background-color: var(--color-blue-light);
+    padding: .8rem .75rem;
+}
+
+.text-input:focus {
+    background-color: var(--color-blue-light);
+}
+
+.text-input::placeholder {
+    color: var(--color-gray-light);
+}

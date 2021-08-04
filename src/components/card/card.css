@@ -1,0 +1,6 @@
+.custom-card {
+    height: 100%;
+    width: 100%;
+    border-radius: .5rem;
+    box-shadow: var(--default-shadow);
+}
