@@ -1,0 +1,120 @@
+.drawer-main {
+    color: var(--color-gray-light);
+    font-size: .9rem;
+    font-weight: 500;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.drawer-main .MuiListItem-padding {
+    padding: 1.2rem 1.4rem 1.1rem 1.4rem;
+}
+
+.drawer-main .MuiListItem-root {
+    border-radius: .5rem;
+}
+
+.drawer-main .MuiList-root {
+    margin: 0 1.5rem 0 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.drawer-main .Mui-selected, .drawer-main .Mui-selected:hover
+ {
+    border-radius: .5rem;
+    background-color: var(--color-blue-light);
+    color: var(--color-primary);
+}
+
+.drawer-logo-container {
+    display: flex;
+    padding: 2rem 2rem 1rem 3rem;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.drawer-logo {
+    height: 2.5rem;
+}
+
+.dashboard-main {
+    display: flex;
+    height: 100vh;
+    padding: 1rem;
+    background-color: var(--color-blue-light);
+    justify-content: center;
+}
+
+.dashboard-subtitle {
+    color: var(--color-gray-light);
+    margin-top: 1rem;
+    font-weight: 400;
+}
+
+.dashboard-header {
+    display: flex;
+    align-items: center;
+}
+
+.dashboard-title-container {
+    min-width: 30rem;
+}
+
+.new-catalog-btn {
+    display: flex;
+    align-items: center;
+    padding: .6rem 1.2rem .6rem 1.2rem;
+    font-weight: 500;
+    min-width: 10rem;
+}
+
+.new-catalog-btn-txt {
+    margin-left: .8rem;
+    font-size: .8rem;
+    font-weight: 600;
+    justify-self: flex-end;
+}
+
+.new-catalog-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.dashboard-content {
+    max-width: 1200px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.user-info {
+    font-family: inherit;
+    text-decoration: none;
+}
+
+.user-info span {
+    color: var(--color-black);
+    font-weight: 600;
+    font-size: .9rem;
+}
+
+.user-info p {
+    color: var(--color-gray-light);
+    font-size: .8rem;
+}
+
+.drawer-footer {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding: 1.2rem 1.4rem 1.1rem 1.4rem;
+}
+
+.catalog-list-container {
+    margin-top: 2rem;
+    border-radius: .5rem;
+    background-color: var(--color-white);
+    height: 100%;
+}

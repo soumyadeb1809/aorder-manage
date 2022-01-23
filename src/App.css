@@ -7,9 +7,23 @@
   --color-gray: #707070;
   --color-gray-light: #A8B4C0;
   --color-white: #FFFFFF;
+  --color-black: #000000;
 
 
   --default-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.fw-bold {
+  font-weight: 700;
+}
+
+.fw-semi-bold {
+  font-weight: 500;
+}
+
+.fw-light {
+  font-weight: 200;
 }
 
 
@@ -32,4 +46,12 @@ input[type="color"]:focus,
   border-color: initial;
   box-shadow: none;
   outline: 0 none;
+}
+
+.margin-l-8 {
+  margin-left: 8px;
+}
+
+.margin-l-16 {
+  margin-left: 16px;
 }

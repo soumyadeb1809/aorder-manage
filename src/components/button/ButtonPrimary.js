@@ -1,10 +1,11 @@
+import { Button } from "@mui/material";
 import "./button-primary.css";
 
-const ButtonPrimary = ({ children }) => {
+const ButtonPrimary = ({ children, className="" }) => {
     return (
-        <button className="button-primary">
+        <Button className={`${className} button-primary`}>
             { children }
-        </button>
+        </Button>
     );
 }
 
